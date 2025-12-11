@@ -2,13 +2,14 @@
 
 This model is a fine-tuned version of **Qwen2.5/3**, specialized for **emotion recognition and emotionally-aware text generation**.
 
-We provide this model in this format:
-- **[safetensor](https://huggingface.co/collections/OmniDimen/omnidimen-v15)**（BF16）
-
-The **safetensors weights** can be used directly with PyTorch-based setups and other frameworks that accept safetensors.
+We have released the following versions:
+- **[OmniDimen-V1.5](https://huggingface.co/collections/OmniDimen/omnidimen-v15)**
+- [OmniDimen-V1.2](https://huggingface.co/collections/OmniDimen/omnidimen-v12)
+- [OmniDimen-V1.1](https://huggingface.co/OmniDimen/OmniDimen-v1.1-4B-Emotion)
 
 We also provide two easy-to-use weight formats:
-- [GGUF](https://huggingface.co/collections/OmniDimen/omnidimen-v15-gguf) (FP16 & Q4_K_M)
+- **[OmniDimen-V1.5-GGUF](https://huggingface.co/collections/OmniDimen/omnidimen-v15-gguf)** (FP16 & Q4_K_M)
+- [OmniDimen-V1.2-GGUF](https://huggingface.co/collections/OmniDimen/omnidimen-v12) (FP16 & Q4_K_M)
 
 Both formats are released in **GGUF**, easily usable with [LM Studio](https://lmstudio.ai/), [Ollama](https://ollama.com/), and [PocketPal](https://github.com/a-ghorbani/pocketpal-ai).
 
